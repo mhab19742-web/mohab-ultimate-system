@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.mohab.king'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.mohab.king'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
